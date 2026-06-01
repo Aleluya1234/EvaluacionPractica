@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Camarón - Restaurant de Mariscos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Don Camarón</h1>
+            <p class="slogan">Los mejores mariscos del puerto</p>
+        </div>
+    </header>
 
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Bienvenido a Don Camarón</h2>
+            <p>Disfruta de la mejor experiencia gastronómica con nuestros mariscos frescos</p>
+        </div>
+    </section>
+
+    <!-- Sección de Platos Destacados -->
+    <section id="menu" class="platos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Platos Destacados</h2>
+            <div class="platos-grid">
+                <div class="plato-card">
+                    <div class="plato-imagen" style="background-color: #FF6B35;"></div>
+                    <h3>Camarones a la Mantequilla</h3>
+                    <p>Camarones frescos salteados con mantequilla, ajo y limón. Acompañados de arroz blanco y ensalada.</p>
+                    <span class="precio">$18.99</span>
+                </div>
+
+                <div class="plato-card">
+                    <div class="plato-imagen" style="background-color: #004E89;"></div>
+                    <h3>Ceviche de Camarón</h3>
+                    <p>Camarones marinados en cítricos con cebolla roja, cilantro y toque de ají. Servido con tostadas.</p>
+                    <span class="precio">$16.99</span>
+                </div>
+
+                <div class="plato-card">
+                    <div class="plato-imagen" style="background-color: #F77F00;"></div>
+                    <h3>Paella de Mariscos</h3>
+                    <p>Combinación exquisita de camarones, mejillones y calamares con arroz tipo paella y azafrán.</p>
+                    <span class="precio">$24.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Reservas -->
+    <section id="reservas" class="reservas">
+        <div class="container">
+            <h2 class="section-title">Reserva tu Mesa</h2>
+            <form class="formulario">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha">Fecha de Reserva</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="personas">Número de Personas</label>
+                    <input type="number" id="personas" name="personas" min="1" max="20" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje (Opcional)</label>
+                    <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Reservar Ahora</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Don Camarón</h3>
+                    <p>Los mejores mariscos del puerto</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Ubicación</h4>
+                    <p>Avenida del Puerto 123</p>
+                    <p>Ciudad Costera, CP 12345</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Teléfono: (555) 123-4567</p>
+                    <p>Email: info@doncamaron.com</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Horario</h4>
+                    <p>Lunes - Jueves: 11:00 AM - 10:00 PM</p>
+                    <p>Viernes - Domingo: 11:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Don Camarón. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
