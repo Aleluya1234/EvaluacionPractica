@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don Camarón - Restaurant de Mariscos</title>
+    <title>🦐 Don Camarón - Restaurant de Mariscos Premium</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <h1 class="logo">Don Camarón</h1>
-            <p class="slogan">Los mejores mariscos del puerto</p>
+            <div class="logo-container">
+                <span class="logo-icon">🦐</span>
+                <h1 class="logo">Don Camarón</h1>
+                <span class="logo-icon">🦐</span>
+            </div>
+            <p class="slogan">🌊 Los mejores mariscos frescos del puerto 🌊</p>
         </div>
     </header>
 
@@ -19,46 +23,94 @@
     <nav class="navbar">
         <div class="container">
             <ul class="nav-menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#menu">Menú</a></li>
-                <li><a href="#reservas">Reservas</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" class="nav-link">🏠 Inicio</a></li>
+                <li><a href="#menu" class="nav-link">🍽️ Menú</a></li>
+                <li><a href="#reservas" class="nav-link">📅 Reservas</a></li>
+                <li><a href="#contacto" class="nav-link">📞 Contacto</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Sección Hero -->
     <section id="inicio" class="hero">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
         <div class="hero-content">
-            <h2>Bienvenido a Don Camarón</h2>
-            <p>Disfruta de la mejor experiencia gastronómica con nuestros mariscos frescos</p>
+            <h2 class="hero-title">🦐 Bienvenido a Don Camarón 🦐</h2>
+            <p class="hero-subtitle">Disfruta de la mejor experiencia gastronómica con nuestros mariscos frescos del puerto</p>
+            <p class="hero-emoji">🌊 🦪 🦀 🦑 🐙 🦞 🌊</p>
+        </div>
+    </section>
+
+    <!-- Sección de Especiales -->
+    <section class="especiales">
+        <div class="container">
+            <h2 class="section-title">✨ Nuestros Mariscos Frescos ✨</h2>
+            <div class="especiales-grid">
+                <div class="especial-item">
+                    <span class="especial-emoji">🦐</span>
+                    <h3>Camarones Premium</h3>
+                    <p>Frescos diarios del puerto</p>
+                </div>
+                <div class="especial-item">
+                    <span class="especial-emoji">🦪</span>
+                    <h3>Ostras Frescas</h3>
+                    <p>Directas del océano</p>
+                </div>
+                <div class="especial-item">
+                    <span class="especial-emoji">🦀</span>
+                    <h3>Cangrejos Vivos</h3>
+                    <p>Seleccionados a mano</p>
+                </div>
+                <div class="especial-item">
+                    <span class="especial-emoji">🦑</span>
+                    <h3>Calamares Tiernos</h3>
+                    <p>Sabor inigualable</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Sección de Platos Destacados -->
     <section id="menu" class="platos">
         <div class="container">
-            <h2 class="section-title">Nuestros Platos Destacados</h2>
+            <h2 class="section-title">🍴 Nuestros Platos Destacados 🍴</h2>
             <div class="platos-grid">
                 <div class="plato-card">
-                    <div class="plato-imagen" style="background-color: #FF6B35;"></div>
+                    <div class="plato-imagen plato-1">
+                        <span class="plato-emoji">🦐🧈</span>
+                    </div>
                     <h3>Camarones a la Mantequilla</h3>
-                    <p>Camarones frescos salteados con mantequilla, ajo y limón. Acompañados de arroz blanco y ensalada.</p>
-                    <span class="precio">$18.99</span>
+                    <p>Camarones frescos salteados con mantequilla derretida, ajo dorado y limón fresco. Acompañados de arroz blanco y ensalada fresca.</p>
+                    <div class="plato-footer">
+                        <span class="precio">$18.99</span>
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                    </div>
                 </div>
 
                 <div class="plato-card">
-                    <div class="plato-imagen" style="background-color: #004E89;"></div>
+                    <div class="plato-imagen plato-2">
+                        <span class="plato-emoji">🥒🍋</span>
+                    </div>
                     <h3>Ceviche de Camarón</h3>
-                    <p>Camarones marinados en cítricos con cebolla roja, cilantro y toque de ají. Servido con tostadas.</p>
-                    <span class="precio">$16.99</span>
+                    <p>Camarones marinados en cítricos frescos con cebolla roja, cilantro aromático y toque de ají picante. Servido con tostadas crujientes.</p>
+                    <div class="plato-footer">
+                        <span class="precio">$16.99</span>
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                    </div>
                 </div>
 
                 <div class="plato-card">
-                    <div class="plato-imagen" style="background-color: #F77F00;"></div>
+                    <div class="plato-imagen plato-3">
+                        <span class="plato-emoji">🥘🦐</span>
+                    </div>
                     <h3>Paella de Mariscos</h3>
-                    <p>Combinación exquisita de camarones, mejillones y calamares con arroz tipo paella y azafrán.</p>
-                    <span class="precio">$24.99</span>
+                    <p>Combinación exquisita de camarones, mejillones frescos, calamares tiernos y arroz tipo paella con azafrán dorado. ¡Imprescindible!</p>
+                    <div class="plato-footer">
+                        <span class="precio">$24.99</span>
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,40 +119,75 @@
     <!-- Sección de Reservas -->
     <section id="reservas" class="reservas">
         <div class="container">
-            <h2 class="section-title">Reserva tu Mesa</h2>
+            <h2 class="section-title">📅 Reserva tu Mesa 📅</h2>
+            <p class="reservas-subtitle">Haz tu reserva y disfruta de la mejor experiencia culinaria marina</p>
             <form class="formulario">
-                <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">👤 Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">✉️ Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="email">Correo Electrónico</label>
-                    <input type="email" id="email" name="email" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="telefono">📱 Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="(555) 123-4567" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="personas">👥 Número de Personas</label>
+                        <input type="number" id="personas" name="personas" min="1" max="20" placeholder="2" required>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono" required>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fecha">📆 Fecha de Reserva</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="hora">🕐 Hora</label>
+                        <input type="time" id="hora" name="hora" required>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="fecha">Fecha de Reserva</label>
-                    <input type="date" id="fecha" name="fecha" required>
+                <div class="form-group full-width">
+                    <label for="mensaje">💬 Mensaje (Opcional)</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos si tienes algún comentario especial..."></textarea>
                 </div>
 
-                <div class="form-group">
-                    <label for="personas">Número de Personas</label>
-                    <input type="number" id="personas" name="personas" min="1" max="20" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="mensaje">Mensaje (Opcional)</label>
-                    <textarea id="mensaje" name="mensaje" rows="5"></textarea>
-                </div>
-
-                <button type="submit" class="btn-submit">Reservar Ahora</button>
+                <button type="submit" class="btn-submit">🦐 Reservar Ahora 🦐</button>
             </form>
+        </div>
+    </section>
+
+    <!-- Sección de Info -->
+    <section class="info-section">
+        <div class="container">
+            <div class="info-cards">
+                <div class="info-card">
+                    <span class="info-icon">🌊</span>
+                    <h3>Mariscos Frescos</h3>
+                    <p>Traídos diariamente del puerto</p>
+                </div>
+                <div class="info-card">
+                    <span class="info-icon">👨‍🍳</span>
+                    <h3>Chef Experimentado</h3>
+                    <p>20 años de experiencia culinaria</p>
+                </div>
+                <div class="info-card">
+                    <span class="info-icon">🏆</span>
+                    <h3>Premium Quality</h3>
+                    <p>Las mejores recetas marineras</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -109,31 +196,36 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Don Camarón</h3>
-                    <p>Los mejores mariscos del puerto</p>
+                    <h3>🦐 Don Camarón 🦐</h3>
+                    <p>Los mejores mariscos frescos del puerto</p>
+                    <p class="footer-emoji">🌊 🦪 🦀 🦑 🦞 🌊</p>
                 </div>
 
                 <div class="footer-section">
-                    <h4>Ubicación</h4>
+                    <h4>📍 Ubicación</h4>
                     <p>Avenida del Puerto 123</p>
                     <p>Ciudad Costera, CP 12345</p>
+                    <p>Frente al Mercado de Mariscos</p>
                 </div>
 
                 <div class="footer-section">
-                    <h4>Contacto</h4>
+                    <h4>📞 Contacto</h4>
                     <p>Teléfono: (555) 123-4567</p>
+                    <p>WhatsApp: (555) 987-6543</p>
                     <p>Email: info@doncamaron.com</p>
                 </div>
 
                 <div class="footer-section">
-                    <h4>Horario</h4>
+                    <h4>🕐 Horario</h4>
                     <p>Lunes - Jueves: 11:00 AM - 10:00 PM</p>
-                    <p>Viernes - Domingo: 11:00 AM - 11:00 PM</p>
+                    <p>Viernes - Domingo: 11:00 AM - 11:30 PM</p>
+                    <p>Domingos: Brunch Marino 10:00 AM</p>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Don Camarón. Todos los derechos reservados.</p>
+                <p>&copy; 2026 🦐 Don Camarón 🦐. Todos los derechos reservados.</p>
+                <p>Hecho con ❤️ desde el Puerto</p>
             </div>
         </div>
     </footer>
