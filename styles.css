@@ -31,8 +31,6 @@ body{
     margin:auto;
 }
 
-/* HEADER */
-
 .header{
     background:linear-gradient(135deg,var(--azul-oscuro),var(--azul-mar));
     color:white;
@@ -49,8 +47,6 @@ body{
     font-size:1.3rem;
     font-style:italic;
 }
-
-/* NAVBAR */
 
 .navbar{
     background:#082f50;
@@ -123,8 +119,6 @@ body{
     font-size:2.3rem;
 }
 
-/* ESPECIALES */
-
 .especiales{
     padding:80px 0;
 }
@@ -152,8 +146,6 @@ body{
     color:var(--azul-mar);
     margin-bottom:10px;
 }
-
-/* PLATOS */
 
 .platos{
     padding:80px 0;
@@ -215,8 +207,6 @@ body{
     font-size:1.5rem;
     font-weight:bold;
 }
-
-/* RESERVAS */
 
 .reservas{
     padding:80px 0;
@@ -281,8 +271,6 @@ body{
     background:#e85a28;
 }
 
-/* INFO */
-
 .info-section{
     background:var(--azul-oscuro);
     padding:80px 0;
@@ -301,8 +289,6 @@ body{
     text-align:center;
     border-radius:15px;
 }
-
-/* FOOTER */
 
 .footer{
     background:#051d31;
@@ -328,8 +314,6 @@ body{
     padding-top:20px;
     border-top:1px solid rgba(255,255,255,.2);
 }
-
-/* RESPONSIVE */
 
 @media(max-width:768px){
 
